@@ -1,3 +1,5 @@
+//Added classes with errors in bootstrap form (For MODX)
+
 $(form).bind('submit', function(event) {
         $(formfields).each(function(){
         if(!$(this).val().length) {

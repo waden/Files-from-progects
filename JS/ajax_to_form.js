@@ -1,3 +1,5 @@
+//Display message from server (MODX) in form, without reload page.
+
 $(document).ready(function(){
 
 	$(".loginLoginForm").bind("submit", function() {

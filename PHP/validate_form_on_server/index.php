@@ -1,4 +1,7 @@
 ﻿<?php
+	
+	//Validate bootstrap form from server side. Fields - Phone, email, name
+
 	$pattern="/^[0-9\-\+]/";
 	$error = false;
 	$succes = false;
@@ -19,6 +22,8 @@
 			$error['phone'] = true;
 		}
 		$data['phone'] = $_POST['phone'];
+
+	//Saving in file, if everything ok.
 
 		if($error !== true){
 			$data = implode($data,' | ');

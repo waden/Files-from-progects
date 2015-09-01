@@ -1,6 +1,6 @@
 
 <?php
-	//snippet for adding user data in MODX
+	//snippet for print user data in MODX
 	
 	$profile = array();
 	$profile = $modx->user->getOne('Profile');
