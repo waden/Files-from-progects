@@ -5,10 +5,10 @@
 	$profile = array();
 	$profile = $modx->user->getOne('Profile');
 	if($profile){
-    $modx->setPlaceholders(array(
-   		'contact_name' => ['fullname'],
-   		'contact_email' => $profile['email'],
-   		'contact_phone'=>$profile['phone']
-	),'my.');
+	    $modx->setPlaceholders(array(
+	   		'contact_name' => ['fullname'],
+	   		'contact_email' => $profile['email'],
+	   		'contact_phone'=>$profile['phone']
+		),'my.');
 	}  
 ?>
