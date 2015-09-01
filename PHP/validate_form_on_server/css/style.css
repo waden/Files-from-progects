@@ -1,0 +1,15 @@
+ .alert-success,form{
+ 	width: 500px;
+ 	margin: 0 auto;
+ }
+
+ form{
+ 	height: 200px;
+ 	border: 2 px solid green;
+ 	margin-bottom: 80px;
+ }
+
+ .error{
+ 	color: red;
+ }
+
