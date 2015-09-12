@@ -1,0 +1,95 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-center">Css 3 button generator</h2>
+                </div>
+                <div class="col-md-4 well">  
+                    <div class="row">
+                        <h3 class="text-center">Border radius</h3>  
+                        <div class="col-md-6">
+                          <div class="text-center">
+                            <button class="btn" id="icrease-radius"><span class="glyphicon glyphicon-menu-up"></span></button>
+                            <button class="btn" id="decrease-radius"><span class="glyphicon glyphicon-menu-down"></span></button>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-center">
+                                <form class="form-inline">
+                                    <div class="form-group">
+                                        <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+                                    <div class="input-group">
+                                    <div class="input-group-addon">STEP</div>
+                                        <input type="text" class="form-control input-sm" id="step" value="1" >
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 class="text-center">Color</h3>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <form class="form-inline">
+                                        <div class="input-group">
+                                            <div class="input-group-addon">Background color</div>
+                                            <input type="text" class="form-control color" id="bg-color" value="CCCCCC" >
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                                <div class="row">
+                                <div class="col-md-12">
+                                    <form class="form-inline">
+                                        <div class="input-group">
+                                            <div class="input-group-addon">Border Color</div>
+                                            <input type="text" class="form-control color" id="border-color" value="777777" >
+                                        </div>
+                                    </form>    
+                                </div>
+                            </div> 
+                        </div>
+                    </div>   
+                </div>     
+                <div class="col-md-4 well">
+                    <h3 class="text-center">Your Button</h3>
+                    <div class="create"></div>
+                </div>
+                <div class="col-md-4 well text-center">
+                    <h3 class="text-center">Your css</h3>
+                    <textarea name="" id="result" cols="30" rows="7"></textarea>
+                </div>
+            </div> 
+        </div>    
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')</script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script type="text/javascript" src="jscolor/jscolor.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
+
+

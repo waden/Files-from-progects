@@ -1,0 +1,38 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+h3{margin-bottom: 30px !important;}
+.row{margin-bottom: 10px !important;}
+.create{
+	height: 40px;
+	width: 140px;
+	margin: 50px auto;
+	background: #888;
+	border: 1px solid #777777;
+	border-radius: 10px;
+	border-color: #777;
+}
+textarea{
+	/*maring:0 auto !important;*/
+}
+*[class *= "col-md-"]{
+	margin-bottom: !important;
+}
+form{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
