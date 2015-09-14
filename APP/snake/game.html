@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Browser game snake</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" /> 		
+	<link rel="stylesheet" href="external/jquery-ui-1.11.4/jquery-ui.min.css" type="text/css" media="screen" />
+	<script src="external/jquery-ui-1.11.4/external/jquery/jquery.js"></script>
+	<script src="external/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+	<script language="javascript" src="js/onload.js"></script>
+	<script language="javascript" src="js/matrix.js"></script>
+	<script language="javascript" src="js/square.js"></script>
+	<script language="javascript" src="js/fruit.js"></script>
+</head>
+	<body>
+		<h1>SNAKE</h1>
+		<div class="btn for_button" id="new_game">Новая игра</div>
+		<div id="matrix1"></div>
+		<div class="btn for_button" id="show_result">Результаты</div>
+
+		<form id ="dialog-modal">
+			<div class="center">
+				<div id ="radio">
+					<input type ="radio" id="radio1" level="Easy" ><label for ="radio1">Easy</label>
+					<input type ="radio" id="radio2" level="Medium" checked="checked" ><label for ="radio2">Normal</label>
+					<input type ="radio" id="radio3" level="Hard"><label for ="radio3">High</label>
+				</div>
+				<br>
+				<input type ="radio" id="submit"><label for ="submit">Играть!</label>
+			</div>
+		</form>
+
+		<form id ="dialog-modal2">
+			<div class="center">
+				Введите ваше имя:
+				<input type="text" id="name">
+				<br>
+				<button type="button" id="save_result" class="btn" value="Сохранить результат">Сохранить результат</button>
+			</div>
+		</form>
+
+		<script>
+				
+		</script>
+	</body>
+</html>
